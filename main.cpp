@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char x;
+    char y;
+    cout << "... Program To Check If A Character Is A Vowel Or Consonant..." << endl;
+    cout << "\nEnter Your Character: ";
+    cin >>x;
+    y = tolower(x);
+    if( y=='a'|| y=='e'|| y=='i'|| y=='o'|| y=='u'){
+        cout << "\nYour Character Is A Vowel" << endl;
+    }else{
+        cout << "\nYour Character Is A Consonant" << endl;
+    }
+    return 0;
+}
